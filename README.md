@@ -12,7 +12,7 @@ docker run --rm -it \
 -e EMAIL_SUBJECT="Monitoring Weekly Report"  \
 -e EMAIL_TO=email2@example.com,email3@example.com  \
 -e GRAFANA_REPORTER_URL=https://grafana-reporter.example.com \
--e GRAFANA_TOKEN=eyJrIjoiN2abcdefghijklmonpqrst== \
+-e GRAFANA_TOKEN=exampletoken \
 -e PYTHONUNBUFFERED=1 \
 -e TIMESPAN_FROM=now-7d \
 -e TIMESPAN_TO=now \
